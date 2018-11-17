@@ -1,38 +1,15 @@
-# Flask starter template
-Very basic Flask starter project template including:
+## API Project: File Metadata Microservice 
 
-* Flask (obvious)
-* Flask-SQLAlchemy
-* A couple of routes
-* Bulma CSS
+Porting FreeCodeCamp APIs and Microservices Certification Challenges from JS to Python
 
-### Structure
-```bash
-.
-├── LICENSE
-├── README.md
-├── app
-│   ├── __init__.py
-│   ├── models
-│   │   ├── __init__.py
-│   │   └── main.py
-│   ├── routes
-│   │   ├── __init__.py
-│   │   └── main.py
-│   ├── static
-│   │   ├── css
-│   │   │   └── mods.css
-│   │   └── js
-│   │       └── magic.js
-│   ├── templates
-│   │   └── index.html
-│   └── utils
-│       ├── __init__.py
-│       └── main.py
-├── config.py
-├── requirements.txt
-└── run.py
+###    User stories:
+1. I can submit a form that includes a file upload.
+2. The from file input field  has the "name" attribute set to "upfile". We rely on this in testing.
+3. When I submit something, I will receive the file name and size in bytes within the JSON response
 
-```
+### Usage :
+* Go to the main page, and upload a file using the provided form.
 
-![Image of / placeholder route](https://i.imgur.com/ZpnKXPh.png)
+You can check my original Challenges [here](https://omik-fcc.github.io).
+
+![screenshot](https://i.imgur.com/yTk9MDO.png)
