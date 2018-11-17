@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+    crossorigin="anonymous">
+  <!-- Bulma 0.7.2 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+  <!-- Own Madness -->
+  <script src="static/js/magic.js"></script>
+  <link rel="stylesheet" type="text/css" href="static/css/mods.css">
+  <title>File Metadata Microservice</title>
+</head>
+
+<body>
+  <section class="hero is-warning is-fullheight is-bold">
+    <div class="hero-head">
+      <!-- HEADER NAV HOLDER -->
+    </div>
+
+    <div class="hero-body">
+      <div class="container has-text-centered">
+
+        <i class="fab fa-python fa-5x"></i>
+        <i class="fab fa-html5 fa-5x"></i>
+        <i class="fab fa-css3 fa-5x"></i>
+
+        <p class="title is-size-2">
+          File Metadata Microservice
+        </p>
+        <p class="subtitle">
+          Porting FreeCodeCamp APIs and Microservices Certification Challenges from JS to Python
+        </p>
+
+        <p class="is-size-4">User Stories:</p>
+
+        <p>I can submit a form object that includes a file upload.</p>
+        <p>The from file input field has the "name" attribute set to "upfile". We rely on this in testing.</p>
+        <p class="is-size-6 closing">When I submit something, I will receive the file name, and size in bytes within
+          the JSON response. e.g.</p>
+        <code>{"name":"my-cat.jpg","type":"image/jpeg","size":86534}</code>
+
+
+        <div class="columns is-centered">
+          <div class="column is-6">
+            <hr>
+            <form method="post" enctype="multipart/form-data">
+
+              <input class="subtitle" type="file" name="file"><br>
+              <input class="is-size-5" type="submit" value="Upload">
+
+            </form>
+            <hr>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="hero-foot">
+      <div class="content is-mobile has-text-centered">
+        <p>
+          Proudly BackEnded by <a href="https://omik.github.io" target="_blank"><strong>Jesús Muñoz a.k.a. "omiK"</strong></a><br>
+          using Python, Flask, and Bulma CSS. Feel free to use/remix/destroy
+        </p>
+      </div>
+
+    </div>
+  </section>
+</body>
+
+</html>
